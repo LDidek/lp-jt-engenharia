@@ -325,7 +325,7 @@ async function handleFormSubmit(e) {
   navigator.sendBeacon(window.location.pathname, blob);
 
   // Redirect para WhatsApp (acontece SEMPRE apos validacao)
-  const redirectWhatsApp = "554784566163";
+  const redirectWhatsApp = "5547992087691";
 
   const primeiroNome = nome.trim() ? nome.trim().split(' ')[0] : 'Cliente';
   const selectInteresse = form.querySelector('[name="interesse"]');
